@@ -1,6 +1,6 @@
 # Self-RedTeam
 
-This code supplements our recently released paper: Chasing Moving Targets with Online Self-Play Reinforcement Learning for Safer Language Models
+This code supplements our recently released paper: [Chasing Moving Targets with Online Self-Play Reinforcement Learning for Safer Language Models](https://arxiv.org/abs/2506.07468)
 
 This codebase is built on OpenRLHF: a high-performance RLHF framework built on Ray, DeepSpeed and HF Transformers. To visit the original repo:  [GitHub Repo](https://github.com/OpenRLHF/OpenRLHF/tree/main) | [Slides](https://docs.google.com/presentation/d/1JRhB1d7csofx0PIZBmfyBdMluxNd5JLPpUHrrvVhGnk/edit?usp=sharing) | [Technical Report](https://arxiv.org/abs/2405.11143) | [Documentations](https://openrlhf.readthedocs.io/)
 
@@ -49,6 +49,17 @@ Before you start, please ensure that you have done the following:
 bash ./scripts/red_team_game_reinforce_8b.sh
 ```
 
-______________________________________________________________________
+## Cite This
+If you help our work helpful, please consider citing this work!
+```
+@misc{liu2025chasingmovingtargetsonline,
+      title={Chasing Moving Targets with Online Self-Play Reinforcement Learning for Safer Language Models}, 
+      author={Mickel Liu and Liwei Jiang and Yancheng Liang and Simon Shaolei Du and Yejin Choi and Tim Althoff and Natasha Jaques},
+      year={2025},
+      eprint={2506.07468},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.07468}, 
+}
+```
 
-*OpenRLHF © 2025 OpenRLHF. All Rights Reserved.*
