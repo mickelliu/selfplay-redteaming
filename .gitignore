@@ -157,7 +157,6 @@ misc.ipynb
 checkpoints
 eval/results/
 red_team/data/*
-eval/benchmarks
 slurm_output/*
 
 # Ignore everything in data folder, but include data.zip
