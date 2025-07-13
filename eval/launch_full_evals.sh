@@ -8,7 +8,7 @@ declare -A MODEL_TEMPLATES
 MODEL_TEMPLATES=(
     ["/path/to/model/1"]="llama3_cot"
     ["/path/to/model/2"]="llama3_cot"
-    ["/path/to/model/3"]="hf"
+    ["/path/to/model/3"]=""
 )
 TIMESTAMP=$(date +%Y%m%dT%H%M)
 EVAL_HOME_DIR=~/code/selfplay-openrlhf/eval/results/full_eval_${TIMESTAMP}
@@ -31,9 +31,9 @@ for MODEL_PATH in "${!MODEL_TEMPLATES[@]}"; do
         --model_path "$MODEL_PATH" \
         --chat_template_name "$CHAT_TEMPLATE" \
         --eval_home_dir "$EVAL_HOME_DIR" \
-        # --skip_safety_eval \ # 
-        # --skip_general_eval \
-        # --run_chat_eval
+        # --skip_safety_eval \ # If you want to skip safety eval (safety-eval)
+        # --skip_general_eval \ # If you want to skip general eval (lm-eval)
+        # --run_chat_eval # If you want to run chat eval (olmes)
     echo "Completed evaluation for: $MODEL_PATH"
     echo "============================================="
 done
