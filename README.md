@@ -49,8 +49,12 @@ Before you start, please ensure that you have done the following:
 bash ./scripts/red_team_game_reinforce_8b.sh
 ```
 
+## Eval
+
+Please review `eval/README.md`
+
 ## Cite This
-If you help our work helpful, please consider citing this work!
+If you find our work helpful, please consider citing this work!
 ```
 @misc{liu2025chasingmovingtargetsonline,
       title={Chasing Moving Targets with Online Self-Play Reinforcement Learning for Safer Language Models}, 
