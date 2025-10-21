@@ -1,11 +1,21 @@
 # Self-RedTeam
 
+
+<div align="left" style="line-height: 1;">
+  <a href="https://arxiv.org/abs/2506.07468" target="_blank">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2506.24119-b31b1b?logo=arxiv&logoColor=white"/>
+  </a>
+  <a href="https://huggingface.co/collections/mickelliu/self-redteam-68f72b48c4beea864617fe4c" target="_blank"><img alt="Hugging Face"
+    src="https://img.shields.io/badge/🤗%20Hugging%20Face-Model%20Checkpoints-fcd022?color=fcd022&logoColor=white"/></a>
+</div>
+
 This code supplements our recently released paper: [Chasing Moving Targets with Online Self-Play Reinforcement Learning for Safer Language Models](https://arxiv.org/abs/2506.07468)
 
 This codebase is built on OpenRLHF: a high-performance RLHF framework built on Ray, DeepSpeed and HF Transformers. To visit the original repo:  [GitHub Repo](https://github.com/OpenRLHF/OpenRLHF/tree/main) | [Slides](https://docs.google.com/presentation/d/1JRhB1d7csofx0PIZBmfyBdMluxNd5JLPpUHrrvVhGnk/edit?usp=sharing) | [Technical Report](https://arxiv.org/abs/2405.11143) | [Documentations](https://openrlhf.readthedocs.io/)
 
 The reward model part is built on WildGuard: [GitHub Repo](https://github.com/allenai/wildguard) | [Paper](https://arxiv.org/abs/2406.18495) | [Model](https://huggingface.co/allenai/wildguard)
 
+Self-RedTeam model checkpoints can be found [here](https://huggingface.co/collections/mickelliu/self-redteam-68f72b48c4beea864617fe4c).
 
 ## Quick Start
 
